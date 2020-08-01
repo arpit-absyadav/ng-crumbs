@@ -5,7 +5,7 @@ import { BreadcrumbService } from './breadcrumb.service';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'abs-breadcrumb',
+  selector: 'breadcrumb',
   template: `<div #template>
       <ng-content></ng-content>
     </div>
