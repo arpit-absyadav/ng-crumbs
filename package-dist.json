@@ -1,32 +1,36 @@
 {
-    "name": "ng-crumbs",
-    "version": "1.0.0",
-    "description": "A route-based Angular breadcrumb component and service. Allows breadcrumb descriptions to be set based on route data, or as the result of an API call.",
-    "main": "bundles/ng-crumbs.umd.min.js",
-    "module": "index.js",
-    "typings": "index.d.ts",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/arpit-absyadav/ng-crumbs.git"
-    },
-    "keywords": [
-        "angular",
-        "angular2",
-        "breadcrumb"
-    ],
-    "author": "Arpit Yadav",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/arpit-absyadav/ng-crumbs/issues"
-    },
-    "homepage": "https://github.com/arpit-absyadav/ng-crumbs#readme",
-    "peerDependencies": {
-        "@angular/common": ">=2.0.0 <10.0.0",
-        "@angular/core": ">=2.0.0 <10.0.0",
-        "@angular/platform-browser": ">=2.0.0 <10.0.0",
-        "@angular/router": ">=2.0.0 <10.0.0",
-        "reflect-metadata": "^0.1.8",
-        "rxjs": ">=5.0.3",
-        "zone.js": "^0.8.12"
-    }
+  "name": "ng-crumbs",
+  "version": "1.0.3",
+  "description": "A route-based Angular breadcrumb component and service. Allows breadcrumb descriptions to be set based on route data, or as the result of an API call.",
+  "main": "bundles/ng-crumbs.umd.min.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit-absyadav/ng-crumbs.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "breadcrumb"
+  ],
+  "author": "Arpit Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arpit-absyadav/ng-crumbs/issues"
+  },
+  "homepage": "https://github.com/arpit-absyadav/ng-crumbs#readme",
+  "peerDependencies": {
+    "@angular/common": ">=2.0.0 <10.0.0",
+    "@angular/core": ">=2.0.0 <10.0.0",
+    "@angular/platform-browser": ">=2.0.0 <10.0.0",
+    "@angular/router": ">=2.0.0 <10.0.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": ">=5.0.3",
+    "zone.js": "^0.8.12"
+  }
 }
